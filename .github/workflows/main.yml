@@ -1,0 +1,10 @@
+            - name: radar-action
+  # You may pin to the exact commit or the version.
+  # uses: Auditware/radar-action@74fd3e7e1db4b0c8b3b9dc5f3532a4d3d781935f
+  uses: Auditware/radar-action@0.1.1
+  with:
+    # Path of the folder to be scanned
+    path: # optional, default is .
+    # Severities to be ignored (e.g. low)
+    ignore: # optional, default is 
+          
